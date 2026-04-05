@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的小卡片导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "微软雅黑", sans-serif;
+        }
+        body {
+            background: #f0f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .title {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 25px;
+        }
+        .link-item {
+            display: block;
+            background: #58a6ff;
+            color: white;
+            text-decoration: none;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: background 0.2s;
+        }
+        .link-item:hover {
+            background: #388bfd;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="title">我的小卡片导航</div>
+        <div class="subtitle">这里是我收集的有趣网站</div>
+
+        <a href="https://www.bilibili.com" target="_blank" class="link-item">B站</a>
+        <a href="https://www.baidu.com" target="_blank" class="link-item">百度</a>
+        <a href="https://www.zhihu.com" target="_blank" class="link-item">知乎</a>
+        <a href="https://www.douyin.com" target="_blank" class="link-item">抖音</a>
+
+        <div class="footer">2026 我的小站</div>
+    </div>
+</body>
+</html>
